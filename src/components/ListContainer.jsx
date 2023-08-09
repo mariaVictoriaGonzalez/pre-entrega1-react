@@ -1,8 +1,8 @@
 import React from 'react'
 import './ListContainer.css'
 
-export const ListContainer = ()=> {
+export const ListContainer = ({greeting})=> {
     return(
-        <h1 className='listContainer'>Bienvenidos a la tienda!</h1>
+        <h1 className='listContainer'>{greeting}</h1>
     )
 }

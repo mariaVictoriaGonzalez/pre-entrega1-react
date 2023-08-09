@@ -8,7 +8,7 @@ function App() {
   return (
     <>
     <NavBar/>
-    <ListContainer/>
+    <ListContainer greeting={"Bienvenidos a la tienda!"}/>
     </>
   )
 }
